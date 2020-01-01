@@ -9,8 +9,6 @@ body {
 
 .app {
   margin: 4rem auto;
-  /* padding: 2rem 3rem 3rem; */
-  /* max-width: 500px; */
   color: rgb(212, 212, 212);
   box-shadow: 8px 8px 0px 0px rgba(100,100,100,.1);
   border-radius: 8px !important;
@@ -38,9 +36,6 @@ div .MuiButton-root.Mui-disabled {
 
 .edit {
   height: 40px;
-  /* border: 0px;
-  padding: 0px;
-  box-shadow: 0; */
 }
 .MuiPaper-rounded {
   border-radius: 8px !important;

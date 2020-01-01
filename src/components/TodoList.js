@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Todo from "./Todo";
-import { List, Paper, Grid } from "@material-ui/core";
+import { Paper, Grid } from "@material-ui/core";
 
 const TodoList = ({ todos, actions }) => (
   <div>

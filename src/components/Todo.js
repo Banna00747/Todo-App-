@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import classnames from "classnames";
 import TodoInputText from "./TodoInputText";
 import Checkbox from "@material-ui/core/Checkbox";

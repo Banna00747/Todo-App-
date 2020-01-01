@@ -1,5 +1,4 @@
 import { connect } from "react-redux";
-// import { toggleTodo } from '../actions'
 import * as TodoActions from "../actions";
 
 import TodoList from "../components/TodoList";

@@ -1,7 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
-import Todo from "./Todo";
-import { List, Paper, Grid } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
