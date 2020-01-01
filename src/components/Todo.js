@@ -7,7 +7,6 @@ import IconButton from "@material-ui/core/IconButton";
 import DeleteOutlined from "@material-ui/icons/DeleteOutlined";
 import { Paper, Grid } from "@material-ui/core";
 import {
-  List,
   ListItem,
   ListItemText,
   ListItemSecondaryAction

@@ -1,22 +1,11 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    "& > *": {
-      marginRight: 100,
-      width: 200
-    }
-  }
-}));
 
 let completedCount;
 let remainingItem;
 
 const ClearCompleteTodo = ({ todos, actions }) => {
-  const classes = useStyles();
 
   {
     todos.length !== 0 &&
