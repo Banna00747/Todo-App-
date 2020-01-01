@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 2%;
+
+
+  background: #FF6666;
+}
+
+.app {
+  margin: 4rem auto;
+  padding: 2rem 3rem 3rem;
+  /* max-width: 500px; */
+  color: rgb(212, 212, 212);
+  box-shadow: -20px -20px 0px 0px rgba(100,100,100,.1);
+}
+
+ul {
+  list-style-type:none;
+  padding-inline-start: 0px;
+}
+
+
+.todo-list li.completed label {
+  color: #cdcdcd;
+  text-decoration: line-through;
+}
+
+div .MuiBottomNavigation-root {
+  height: 28px;
+}
+
+div .MuiButton-root.Mui-disabled {
+  color:#3f51b5;
+}
+
+.edit {
+  height: 40px;
+  /* border: 0px;
+  padding: 0px;
+  box-shadow: 0; */
+}
+
+
