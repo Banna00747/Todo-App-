@@ -4,10 +4,11 @@ import Button from "@material-ui/core/Button";
 const Link = ({ active, children, onClick }) => (
   <div>
     <Button
-      variant="outlined"
+      variant="contained"
       onClick={onClick}
       disabled={active}
-      style={{ marginLeft: "4px" }}
+      color="secondary"
+      style={{ marginLeft: "4px", backgroundColor: "#333745" }}
     >
       {children}
     </Button>

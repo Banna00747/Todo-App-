@@ -9,7 +9,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     "& > *": {
       marginRight: 100,
-      width: 200,
+      width: 200
     }
   }
 }));

@@ -13,7 +13,7 @@ export default class TodoInputText extends Component {
     const text = e.target.value.trim();
     if (e.which === 13) {
       if (text.length === 0) {
-        this.props.deleteTodo(this.props.id)
+        this.props.deleteTodo(this.props.id);
       } else {
         this.props.editTodo(this.props.id, text);
         this.props.toggleEditing();
@@ -28,7 +28,6 @@ export default class TodoInputText extends Component {
     this.setState({ text: e.target.value });
   };
 
-
   render() {
     return (
       <Paper>
@@ -39,13 +38,13 @@ export default class TodoInputText extends Component {
                 edit: this.props.editing,
                 "new-todo": this.props.newTodo
               })}
-              type="text" 
+              type="text"
               placeholder={this.props.placeholder}
               autoFocus={true}
               value={this.state.text}
               onChange={this.handleChange}
               onKeyDown={this.handleSubmit}
-              margin='none'
+              margin="none"
               size="medium"
             />
           </Grid>
@@ -54,4 +53,3 @@ export default class TodoInputText extends Component {
     );
   }
 }
-

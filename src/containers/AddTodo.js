@@ -8,7 +8,10 @@ const useStyles = makeStyles(theme => ({
   root: {
     "& > *": {
       margin: theme.spacing(4),
-      width: 450
+      width: 500,
+      marginLeft: 110,
+      boxShadow: "5px 5px 0px 0px rgba(100,100,100,.1)",
+      borderRadius: "8px"
     }
   }
 }));
@@ -37,6 +40,7 @@ const AddTodo = ({ dispatch }) => {
                 id="outlined-basic"
                 inputRef={node => (input = node)}
                 label="Add Todo"
+                width={{ marginLeft: 20 }}
                 variant="outlined"
               />
             </form>
